@@ -1,0 +1,58 @@
+//                              -*- Mode: Verilog -*-
+// Filename        : USER_DEFINES.vh
+// Description     : 
+// Author          : 
+// Created On      : Fri Jan 22 12:58:18 2021
+// Last Modified By: 
+// Last Modified On: 2021-02-03 16:34:36
+// Update Count    : 0
+// Status          : Unknown, Use with caution!
+`ifndef  USER_DEFINE
+`define  USER_DEFINE
+
+`define  HI         1'b1
+`define  LO         1'b0
+
+`define  CMD_REGWR  8'h11
+`define  CMD_REGRD  8'h33
+`define  CMD_XXX    8'hEE
+
+//=======================================================================
+interface interface_SPI;
+   logic SCLK;
+   logic XCS;
+   logic MOSI;
+   logic MISO;
+
+   modport master(
+      output .OSCLK(SCLK), .OXCS(XCS), .OMOSI(MOSI),
+      input  .IMISO(MISO)
+   ); // master
+   modport slave(
+      input  .ISCLK(SCLK), .IXCS(XCS), .IMOSI(MOSI),
+      output .OMISO(MISO)
+   ); // slave
+endinterface // SPI_intf
+//=======================================================================
+interface interface_REGI;
+   logic       WE;
+   logic [7:0] WADDR;
+   logic [7:0] WDATA;
+   logic       RE;
+   logic [7:0] RADDR;
+   logic [7:0] RDATA;
+  
+   modport master(
+      output .OWE(WE), .OWADDR(WADDR), .OWDATA(WDATA),
+      output .ORE(RE), .ORADDR(RADDR), 
+      input  .IRDATA(RDATA)
+   );
+   modport slave(
+      input  .IWE(WE), .IWADDR(WADDR), .IWDATA(WDATA),
+      input  .IRE(RE), .IRADDR(RADDR), 
+      output .ORDATA(RDATA)
+   );
+endinterface // interface_REGI
+
+`endif
+

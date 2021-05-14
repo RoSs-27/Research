@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MCU_ilmb_v10_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MCU_dlmb_bram_if_cntlr_0_synth_1"/>
+	</Run>
+	<Run Id="MCU_axi_uartlite_0_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_mdm_1_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_dlmb_v10_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MCU_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="MCU_lmb_bram_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_microblaze_0_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_clk_wiz_1_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MCU_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/MCU_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/proj_sasaoka/Display3D/Display3D.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="MCU_ilmb_v10_0_synth_1"/>
+		<Parent Id="MCU_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="MCU_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="MCU_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="MCU_mdm_1_0_synth_1"/>
+		<Parent Id="MCU_dlmb_v10_0_synth_1"/>
+		<Parent Id="MCU_lmb_bram_0_synth_1"/>
+		<Parent Id="MCU_microblaze_0_0_synth_1"/>
+		<Parent Id="MCU_clk_wiz_1_0_synth_1"/>
+		<Parent Id="MCU_rst_clk_wiz_1_100M_0_synth_1"/>
+	</Run>
+</Runs>
+

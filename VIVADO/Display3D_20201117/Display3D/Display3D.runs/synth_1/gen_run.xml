@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1605596181">
+  <File Type="PA-TCL" Name="FPGA_TOP.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="FPGA_TOP_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="FPGA_TOP_reports.tcl"/>
+  <File Type="RDS-RDS" Name="FPGA_TOP.vds"/>
+  <File Type="RDS-UTIL" Name="FPGA_TOP_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="FPGA_TOP_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="FPGA_TOP.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="FPGA_TOP_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="FPGA_TOP_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/MCU/MCU.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/MCU_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/MCU/hdl/MCU_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1605595917"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/GEN40KHZ.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/FPGA_TOP.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FPGA_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/Cmod-A7.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_axi_gpio_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_axi_intc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MCU_xlconcat_0_0"/>
+</GenRun>

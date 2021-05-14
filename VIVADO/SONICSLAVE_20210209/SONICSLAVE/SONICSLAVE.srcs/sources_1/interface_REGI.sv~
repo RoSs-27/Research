@@ -1,0 +1,31 @@
+//                              -*- Mode: Verilog -*-
+// Filename        : REGI_intf.sv
+// Description     : 
+// Author          : 
+// Created On      : Wed Feb  3 15:36:02 2021
+// Last Modified By: 
+// Last Modified On: 2021-02-03 15:52:55
+// Update Count    : 0
+// Status          : Unknown, Use with caution!
+
+//interface REGI_intf(input wire ICLK, input wire IRST);
+interface REGI_intf();
+   logic       WE;
+   logic [7:0] WADDR;
+   logic [7:0] WDATA;
+   logic       RE;
+   logic [7:0] RADDR;
+   logic [7:0] RDATA;
+  
+   modport master(
+      output .OWE(WE), .OWADDR(WADDR), .OWDATA(WDATA),
+      output .ORE(RE), .ORADDR(RADDR), 
+      input  .IRDATA(RDATA)
+   );
+   modport slave(
+      input  .IWE(WE), .IWADDR(WADDR), .IWDATA(WDATA),
+      input  .IRE(RE), .IRADDR(RADDR), 
+      output .ORDATA(RDATA)
+   );
+endinterface // REGI_intf
+

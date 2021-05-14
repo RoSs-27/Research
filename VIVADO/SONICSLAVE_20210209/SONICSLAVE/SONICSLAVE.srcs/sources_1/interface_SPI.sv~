@@ -1,0 +1,27 @@
+//                              -*- Mode: Verilog -*-
+// Filename        : SPI_intf.sv
+// Description     : 
+// Author          : 
+// Created On      : Wed Feb  3 15:33:51 2021
+// Last Modified By: 
+// Last Modified On: 2021-02-03 15:51:23
+// Update Count    : 0
+// Status          : Unknown, Use with caution!
+//interface SPI_intf();
+interface interface_SPI;
+   logic SCLK;
+   logic XCS;
+   logic MOSI;
+   logic MISO;
+
+   modport master(
+      output .OSCLK(SCLK), .OXCS(XCS), .OMOSI(MOSI),
+      input  .IMISO(MISO)
+   ); // master
+   modport slave(
+      input  .ISCLK(SCLK), .IXCS(XCS), .IMOSI(MOSI),
+      output .OMISO(MISO)
+   ); // slave
+endinterface // SPI_intf
+
+

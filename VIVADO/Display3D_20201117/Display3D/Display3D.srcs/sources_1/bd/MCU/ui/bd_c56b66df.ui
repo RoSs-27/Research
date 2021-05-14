@@ -1,0 +1,76 @@
+{
+   DisplayTieOff: "1",
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port REVHW -pg 1 -y 120 -defaultsOSRD
+preplace port UART -pg 1 -y 450 -defaultsOSRD
+preplace port ITIMER_FRZ -pg 1 -y 530 -defaultsOSRD
+preplace port IINTR -pg 1 -y 730 -defaultsOSRD
+preplace port OCLK10 -pg 1 -y 830 -defaultsOSRD
+preplace port OTIMER_GEN0 -pg 1 -y 260 -defaultsOSRD
+preplace port LED -pg 1 -y 620 -defaultsOSRD
+preplace port OTIMER_GEN1 -pg 1 -y 280 -defaultsOSRD
+preplace port ISYSRST -pg 1 -y 1000 -defaultsOSRD
+preplace port ISYSCLK -pg 1 -y 830 -defaultsOSRD
+preplace port SW -pg 1 -y 640 -defaultsOSRD
+preplace port OTIMER_PWM -pg 1 -y 300 -defaultsOSRD
+preplace port ITIMER_CAP0 -pg 1 -y 360 -defaultsOSRD
+preplace port ITIMER_CAP1 -pg 1 -y 380 -defaultsOSRD
+preplace port OLOCKED -pg 1 -y 850 -defaultsOSRD
+preplace portBus OPERI_XRST -pg 1 -y 720 -defaultsOSRD
+preplace portBus OPERI_RST -pg 1 -y 1020 -defaultsOSRD
+preplace inst clkgen -pg 1 -lvl 4 -y 830 -defaultsOSRD
+preplace inst gpio_revhw -pg 1 -lvl 5 -y 120 -defaultsOSRD
+preplace inst timer -pg 1 -lvl 5 -y 290 -defaultsOSRD
+preplace inst mdm -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst concat_intr -pg 1 -lvl 1 -y 700 -defaultsOSRD
+preplace inst gpio_ledsw -pg 1 -lvl 5 -y 640 -defaultsOSRD
+preplace inst uart -pg 1 -lvl 5 -y 460 -defaultsOSRD
+preplace inst rstgen -pg 1 -lvl 2 -y 1020 -defaultsOSRD
+preplace inst localmem -pg 1 -lvl 4 -y 690 -defaultsOSRD
+preplace inst intr -pg 1 -lvl 2 -y 670 -defaultsOSRD
+preplace inst mbcore -pg 1 -lvl 3 -y 680 -defaultsOSRD
+preplace inst conn -pg 1 -lvl 4 -y 200 -defaultsOSRD
+preplace netloc axi_intc_0_interrupt 1 2 1 590
+preplace netloc mbcore_Clk 1 1 4 240 580 600 590 1140 580 1480
+preplace netloc interconnect_M00_AXI 1 1 4 230 570 NJ 570 NJ 570 1440
+preplace netloc timer_generateout0 1 5 1 NJ
+preplace netloc capturetrig1_0_1 1 0 5 NJ 380 NJ 380 NJ 380 1110J 410 1500J
+preplace netloc timer_interrupt 1 0 6 30 550 NJ 550 NJ 550 NJ 550 NJ 550 1770
+preplace netloc s_LED 1 5 1 NJ
+preplace netloc timer_generateout1 1 5 1 NJ
+preplace netloc capturetrig0_0_1 1 0 5 NJ 360 NJ 360 NJ 360 1130J 400 1470J
+preplace netloc uart_interrupt 1 0 6 20 540 NJ 540 NJ 540 NJ 540 NJ 540 1760
+preplace netloc peripheral_aresetn 1 1 5 230 920 600 1030 NJ 1030 1510 720 NJ
+preplace netloc conn_M04_AXI 1 4 1 N
+preplace netloc microblaze_M_AXI_DP 1 3 1 1100
+preplace netloc microblaze_0_ilmb_1 1 3 1 N
+preplace netloc conn_M03_AXI 1 4 1 1450
+preplace netloc conn_M02_AXI 1 4 1 1460
+preplace netloc concat_intr_dout 1 1 1 N
+preplace netloc s_sysclk 1 0 4 NJ 830 NJ 830 NJ 830 NJ
+preplace netloc struct_reset 1 2 2 NJ 1000 1120
+preplace netloc timer_pwm0 1 5 1 NJ
+preplace netloc interconnect_aresetn 1 2 2 610J 580 1120
+preplace netloc mb_reset 1 2 1 620
+preplace netloc axi_uartlite_0_UART 1 5 1 NJ
+preplace netloc interconnect_M01_AXI 1 4 1 1490
+preplace netloc IINTR_1 1 0 1 NJ
+preplace netloc gpio_ledsw_ip2intc_irpt 1 0 6 40 560 NJ 560 NJ 560 NJ 560 NJ 560 1760
+preplace netloc gpio_ledsw_GPIO2 1 5 1 NJ
+preplace netloc microblaze_0_dlmb_1 1 3 1 N
+preplace netloc freeze_0_1 1 0 5 NJ 530 NJ 530 NJ 530 NJ 530 1520J
+preplace netloc clkgen_locked 1 1 5 240 1120 NJ 1120 NJ 1120 1480 850 NJ
+preplace netloc microblaze_0_debug 1 2 1 620
+preplace netloc rstgen_peripheral_reset 1 2 4 NJ 1020 NJ 1020 NJ 1020 NJ
+preplace netloc clkgen_OCLK10 1 1 5 240 910 NJ 910 NJ 910 1450 830 NJ
+preplace netloc reset_0_1 1 0 2 NJ 1000 NJ
+preplace netloc mdm_1_debug_sys_rst 1 1 2 220 520 590
+preplace netloc gpio_verhw_GPIO 1 5 1 NJ
+levelinfo -pg 1 0 130 420 860 1290 1640 1790 -top 0 -bot 1130
+",
+}
+{
+   da_mb_cnt: "1",
+}

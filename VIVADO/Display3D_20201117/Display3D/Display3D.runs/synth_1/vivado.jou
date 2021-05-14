@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Nov 17 15:57:29 2020
+# Process ID: 27476
+# Current directory: C:/proj_sasaoka/Display3D/Display3D.runs/synth_1
+# Command line: vivado.exe -log FPGA_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FPGA_TOP.tcl
+# Log file: C:/proj_sasaoka/Display3D/Display3D.runs/synth_1/FPGA_TOP.vds
+# Journal file: C:/proj_sasaoka/Display3D/Display3D.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FPGA_TOP.tcl -notrace
