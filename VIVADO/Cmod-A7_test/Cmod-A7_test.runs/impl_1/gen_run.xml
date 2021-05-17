@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1621234780">
+  <File Type="PWROPT-DCP" Name="Speeker_Mch_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Speeker_Mch_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Speeker_Mch.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Speeker_Mch_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Speeker_Mch_reports.tcl"/>
+  <File Type="BG-DRC" Name="Speeker_Mch.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Speeker_Mch_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Speeker_Mch_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Speeker_Mch.hwdef"/>
+  <File Type="OPT-DCP" Name="Speeker_Mch_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Speeker_Mch_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Speeker_Mch_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Speeker_Mch_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Speeker_Mch_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Speeker_Mch_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Speeker_Mch_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Speeker_Mch_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Speeker_Mch_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Speeker_Mch_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Speeker_Mch_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Speeker_Mch_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Speeker_Mch_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Speeker_Mch_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Speeker_Mch_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Speeker_Mch_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Speeker_Mch_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Speeker_Mch_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Speeker_Mch.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Speeker_Mch_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Speeker_Mch_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Speeker_Mch_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Speeker_Mch_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Speeker_Mch_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Speeker_Mch_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Speeker_Mch.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Speeker_Mch_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Speeker_Mch.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Speeker_Mch_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Speeker_Mch.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Speeker_Mch_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Speeker_Mch.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Speeker_Mch_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Speeker_Mch_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Speeker_Mch_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Speeker_Mch_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Speeker_Mch_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Speeker_Mch_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Speeker_Mch_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Speeker_Mch_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Speeker_Mch.vdi"/>
+  <File Type="ROUTE-CLK" Name="Speeker_Mch_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Speeker_Mch_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Speeker_Mch_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Speeker_Mch_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Speeker_Mch_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Speeker_Mch_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Speeker_Mch.nky"/>
+  <File Type="BITSTR-BMM" Name="Speeker_Mch_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Speeker_Mch.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Speeker_Mch.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Speeker_Mch.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Speeker_Mch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Speeker_1ch.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Blinky.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Speeker_Mch"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Xilinx/digilent-xdc-master/digilent-xdc-master/Cmod-A7-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1605166555"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

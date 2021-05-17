@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May 14 17:55:04 2021
+# Process ID: 5508
+# Current directory: C:/Users/b183r035m/Documents/workspace/VIVADO/OLED_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14160 C:\Users\b183r035m\Documents\workspace\VIVADO\OLED_display\OLED_display.xpr
+# Log file: C:/Users/b183r035m/Documents/workspace/VIVADO/OLED_display/vivado.log
+# Journal file: C:/Users/b183r035m/Documents/workspace/VIVADO/OLED_display\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/b183r035m/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+start_gui
+open_project C:/Users/b183r035m/Documents/workspace/VIVADO/OLED_display/OLED_display.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 14 17:55:31 2021...
