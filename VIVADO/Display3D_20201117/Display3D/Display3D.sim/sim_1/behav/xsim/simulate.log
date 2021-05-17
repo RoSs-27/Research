@@ -1,4 +1,0 @@
-Vivado Simulator 2018.1
-Time resolution is 1 ps
-Block Memory Generator module sim_FPGA_TOP.fpga_top.mcu_wrapper.MCU_i.localmem.lmb_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sim_FPGA_TOP.fpga_top.mcu_wrapper.MCU_i.clkgen.inst.mmcm_adv_inst 

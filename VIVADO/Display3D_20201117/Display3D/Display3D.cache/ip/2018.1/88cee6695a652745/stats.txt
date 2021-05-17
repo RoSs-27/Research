@@ -1,3 +1,0 @@
-NumberHits:8
-Timestamp: Tue Nov 17 06:56:18 UTC 2020
-VLNV: xilinx.com:ip:axi_data_fifo:2.1
