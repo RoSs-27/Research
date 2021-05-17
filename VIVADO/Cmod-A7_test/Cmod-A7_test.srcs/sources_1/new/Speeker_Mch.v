@@ -21,11 +21,15 @@
 
 
 module Speeker_Mch(CLK, RST, BTN, LED, GPIO);
-//    parameter ChatteringTime = 'd240000;    // 20ms Chattering cut time
-    parameter ChatteringTime = 18'd10;      // For simulation
-//    parameter SpeekerFreq = 18'd300;        // 40[kHz] frequency
-    parameter SpeekerFreq = 18'd2;          // For simulation
+    parameter ChatteringTime = 18'd240000;    // 20ms Chattering cut time
+//    parameter ChatteringTime = 18'd10;      // For simulation
+    parameter SpeekerFreq = 18'd300;        // 40[kHz] frequency
+//    parameter SpeekerFreq = 18'd2;          // For simulation
     parameter PinNum = 36;                  // Number of pins
+//    parameter EnablePin = 48'h00FF_FE7F_3FFF;
+        // Enable pin number is 0~13, 16~22, 25~39
+        // 0000 0000 1111 1111 _ 1111 1110 0111 1111 _ 0011 1111 1111 1111
+        // 0    0    F    F      F    E    7    F      3    F    F    F
     
     input   CLK;
     input   RST;
@@ -100,6 +104,9 @@ module Speeker_Mch(CLK, RST, BTN, LED, GPIO);
 
     assign  LED = led_out;
     for(genvar i = 0; i < PinNum; i = i + 1) begin
-        assign GPIO[i] = sp_out;
+//        if(EnablePin[i])
+            assign GPIO[i] = sp_out;
+//        else
+//            assign GPIO[i] = 1'b0;
     end
 endmodule

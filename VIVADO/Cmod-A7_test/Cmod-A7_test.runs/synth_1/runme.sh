@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/b183r035m/Documents/workspace/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/synth_1'
+HD_PWD='C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Speeker_1ch.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Speeker_1ch.tcl
+EAStep vivado -log Speeker_Mch.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Speeker_Mch.tcl

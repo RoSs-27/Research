@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/b183r035m/Documents/workspace/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1'
+HD_PWD='C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log Speeker_1ch.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Speeker_1ch.tcl -notrace
+EAStep vivado -log Speeker_Mch.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Speeker_Mch.tcl -notrace
 
 
