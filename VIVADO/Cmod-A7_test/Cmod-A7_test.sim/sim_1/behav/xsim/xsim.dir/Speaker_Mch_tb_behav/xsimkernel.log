@@ -1,0 +1,7 @@
+Running: xsim.dir/Speaker_Mch_tb_behav/xsimk.exe -simmode gui -wdb Speaker_Mch_tb_behav.wdb -simrunnum 0 -socket 53906
+Design successfully loaded
+Design Loading Memory Usage: 5284 KB (Peak: 5284 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5940 KB (Peak: 5940 KB)
+Simulation CPU Usage: 15 ms
