@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon May 17 16:00:29 2021
-# Process ID: 12600
+# Start of session at: Mon May 24 18:08:44 2021
+# Process ID: 11256
 # Current directory: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1
-# Command line: vivado.exe -log Speeker_Mch.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Speeker_Mch.tcl -notrace
-# Log file: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1/Speeker_Mch.vdi
+# Command line: vivado.exe -log Speaker_Ach_primary.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Speaker_Ach_primary.tcl -notrace
+# Log file: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1/Speaker_Ach_primary.vdi
 # Journal file: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source Speeker_Mch.tcl -notrace
+source Speaker_Ach_primary.tcl -notrace

@@ -1,7 +1,7 @@
 `timescale 1ns / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: H.Iwaasa
 // 
 // Create Date: 2021/05/13 15:08:54
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: This program operates a speaker.
 // 
 // Dependencies: 
 // 

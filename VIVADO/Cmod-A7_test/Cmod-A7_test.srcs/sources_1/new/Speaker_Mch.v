@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Kochi University
+// Engineer: H.Iwaasa
 // 
 // Create Date: 2021/05/17 16:29:05
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: This program operates a single-sided speaker.
 // 
 // Dependencies: 
 // 
@@ -103,7 +103,7 @@ module Speaker_Mch(CLK, RST, BTN, LED, GPIO);
     end
 
     assign  LED = led_out;
-    for(genvar i = 0; i < PinNum; i = i + 1) begin
+    for(genvar i = 0; i < PinNum; i = i + 1) begin  // Need consecutive pin number 
 //        if(EnablePin[i])
             assign GPIO[i] = sp_out;
 //        else
