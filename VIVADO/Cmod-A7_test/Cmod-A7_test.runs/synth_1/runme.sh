@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Speeker_Mch.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Speeker_Mch.tcl
+EAStep vivado -log Speaker_Ach_primary.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Speaker_Ach_primary.tcl

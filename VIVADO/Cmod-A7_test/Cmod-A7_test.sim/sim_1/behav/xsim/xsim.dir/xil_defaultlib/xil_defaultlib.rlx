@@ -2,8 +2,10 @@
 2018.1
 Apr  4 2018
 19:30:32
-C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.sim/sim_1/behav/xsim/glbl.v,1621239505,verilog,,,,glbl,,,,,,,,
+C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Ach_primary_tb.v,1621842460,verilog,,,,Speaker_Ach_primary_tb,,,,,,,,
+C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Ach_replica_tb.v,1621842862,verilog,,,,Speaker_Ach_replica_tb,,,,,,,,
 C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Mch_tb.v,1621237033,verilog,,,,Speaker_Mch_tb,,,,,,,,
-C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speeker_Mch_tb.v,1621227770,verilog,,,,Speeker_Mch_tb,,,,,,,,
+C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/new/Speaker_Ach_primary.v,1621842221,verilog,,C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Ach_primary_tb.v,,Speaker_Ach_primary,,,,,,,,
+C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/new/Speaker_Ach_replica.v,1621842225,verilog,,C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Ach_replica_tb.v,,Speaker_Ach_replica,,,,,,,,
 C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/new/Speaker_Mch.v,1621237086,verilog,,C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speaker_Mch_tb.v,,Speaker_Mch,,,,,,,,
-C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/new/Speeker_Mch.v,1621234745,verilog,,C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sim_1/new/Speeker_Mch_tb.v,,Speeker_Mch,,,,,,,,
