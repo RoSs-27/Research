@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -43,13 +43,14 @@ always begin
 end
 
 initial begin
-                RST = 0;    BTN = 0;    XA_N = 0;   XA_P = 0;
+                RST = 0;    BTN = 0;    XA_N = 0;   XA_P = 0;   VN_IN = 0;  VP_IN = 0;
     #STEP       RST = 1;
     #STEP       RST = 0;
-    #(STEP*10)              BTN = 1;
-    #(STEP*10)              BTN = 0;    XA_N = 0;   XA_P = 1;
     #(STEP*20)              BTN = 1;
-    #(STEP*10)              BTN = 0;
+    #(STEP*20)              BTN = 0;    XA_N = 0;   XA_P = 1;   VN_IN = 0;  VP_IN = 1;
+    #(STEP*40)              BTN = 1;
+    #(STEP*20)              BTN = 0;
+    #(STEP*200)             BTN = 0;
 end
 
 endmodule

@@ -66,6 +66,7 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param board.repoPaths C:/Xilinx/vivado-boards-master/new/board_files
+  set_param project.hsv.suppressChildGraphs 0
   set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a35tcpg236-1
   set_property board_part_repo_paths C:/Xilinx/vivado-boards-master/new/board_files [current_project]
@@ -77,7 +78,7 @@ set rc [catch {
   set_property ip_output_repo C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   add_files -quiet C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.runs/synth_1/Speaker_VR_primary.dcp
-  read_ip -quiet c:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+  read_ip -quiet C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
   read_xdc C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_test/Cmod-A7_test.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc
   link_design -top Speaker_VR_primary -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb

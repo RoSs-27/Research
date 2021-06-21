@@ -37,15 +37,15 @@ module Speaker_VR_primary(
 parameter ChatteringTime = 18'd240000;    // 20ms Chattering cut time
 //parameter ChatteringTime = 18'd10;      // For simulation
 parameter SpeakerFreq = 18'd150;        // 40[kHz] frequency
-//parameter SpeakerFreq = 18'd2;          // For simulation
-parameter PwmEnd = 1000;
-//parameter PwmEnd = 1;
+//parameter SpeakerFreq = 18'd5;          // For simulation
+parameter PwmEnd = 500;
+//parameter PwmEnd = 10;
+
 
 integer clk_cnt1 = 0;
 integer clk_cnt2 = 0;
 integer pwm_cnt = 0;
 
-//reg     [17:0]  clk_cnt1, clk_cnt2;
 reg     [6:0]   address_in = 7'h14;
 reg             buf1, buf2;
 reg             btn_out;    // Button ON/OFF
@@ -56,7 +56,6 @@ wire            enable;
 wire            ready;
 wire            en50Hz = (clk_cnt1 == ChatteringTime);  // Encode to 50[Hz]
 wire            en40kHz = (clk_cnt2 == SpeakerFreq);    // Encode to 40[kHz]
-wire    [11:0]  shifted_data = (data >> 4) & 12'hff0;
 
 //XADC instantiation
 xadc_wiz_0 XLXI_7(
@@ -75,7 +74,6 @@ xadc_wiz_0 XLXI_7(
     .channel_out(),
     .drdy_out(ready)
 );
-wire    clk;
 
 // Clock counter
 always @(posedge CLK or posedge RST) begin
@@ -95,7 +93,7 @@ always @(posedge CLK or posedge RST) begin
         
     if(RST)
         pwm_cnt <= 0;
-    else if(shifted_data)
+    else if(pwm_cnt >= PwmEnd)
         pwm_cnt <= 0;
     else
         pwm_cnt <= pwm_cnt + 1;
@@ -157,6 +155,20 @@ for(genvar i = 0; i < 36; i = i + 1) begin
     assign GPIO[i] = sp_out;
 end
 
+wire    [11:0]  shifted_data;
+assign shifted_data = (data >> 4) & 12'hff0;
 assign LED_VR = (pwm_cnt < shifted_data ? 1'b0 : 1'b1);
+
+
+//reg [31:0] delay_buf;
+//always @(posedge CLK or posedge RST) begin
+//    if(RST)
+//        delay_buf <= 0;
+//    else if(en40kHz)
+//        delay_buf[(shifted_data+1)/128] <= 1;
+//    else
+//        delay_buf <= delay_buf >> 1;
+//end
+//assign FREQ40kHz = delay_buf[0];
 
 endmodule
