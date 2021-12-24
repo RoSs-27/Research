@@ -1,0 +1,28 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 0fa7073d408544cfb0a00c2eba75c779 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TOP_tb_behav xil_defaultlib.TOP_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HOST_SPI_default
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=62.5,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.CLKGEN_clk_wiz
+Compiling module xil_defaultlib.CLKGEN
+Compiling module xil_defaultlib.FPGA_TOP_default
+Compiling module xil_defaultlib.CMODA7(delay=8'b01010101)
+Compiling module xil_defaultlib.CMODA7(delay=8'b10101000,ID=4'b0...
+Compiling module xil_defaultlib.CMODA7(delay=8'b011000,ID=4'b010...
+Compiling module xil_defaultlib.CMODA7(delay=8'b01100000,ID=4'b0...
+Compiling module xil_defaultlib.CMODA7(delay=8'b10111011,ID=4'b0...
+Compiling module xil_defaultlib.CMODA7(delay=8'b01000,ID=4'b0101...
+Compiling module xil_defaultlib.CMODA7(delay=8'b0111111,ID=4'b01...
+Compiling module xil_defaultlib.CMODA7(delay=8'b10100001,ID=4'b0...
+Compiling module xil_defaultlib.TOPBOTTOM
+Compiling module xil_defaultlib.TOP_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TOP_tb_behav

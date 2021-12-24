@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="301000000001fs"></ZoomEndTime>
+      <Cursor1Time time="301000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="0" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TOP_tb/s_host0_spi_clk" type="logic">
+      <obj_property name="ElementShortName">s_host0_spi_clk</obj_property>
+      <obj_property name="ObjectShortName">s_host0_spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/s_host0_spi_mosi" type="logic">
+      <obj_property name="ElementShortName">s_host0_spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">s_host0_spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/s_host0_spi_xcs" type="logic">
+      <obj_property name="ElementShortName">s_host0_spi_xcs</obj_property>
+      <obj_property name="ObjectShortName">s_host0_spi_xcs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/s_host0_spi_miso" type="logic">
+      <obj_property name="ElementShortName">s_host0_spi_miso</obj_property>
+      <obj_property name="ObjectShortName">s_host0_spi_miso</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider955">
+      <obj_property name="label">fpga_t0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group956" type="group">
+      <obj_property name="label">fpga_t0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ISPI_CLK" type="logic">
+         <obj_property name="ElementShortName">ISPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">ISPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ISPI_MOSI" type="logic">
+         <obj_property name="ElementShortName">ISPI_MOSI</obj_property>
+         <obj_property name="ObjectShortName">ISPI_MOSI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ISPI_XCS" type="logic">
+         <obj_property name="ElementShortName">ISPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">ISPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/OSPI_CLK" type="logic">
+         <obj_property name="ElementShortName">OSPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">OSPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/OSPI_MISO" type="logic">
+         <obj_property name="ElementShortName">OSPI_MISO</obj_property>
+         <obj_property name="ObjectShortName">OSPI_MISO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/OSPI_XCS" type="logic">
+         <obj_property name="ElementShortName">OSPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">OSPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ICLK" type="logic">
+         <obj_property name="ElementShortName">ICLK</obj_property>
+         <obj_property name="ObjectShortName">ICLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/IRST" type="logic">
+         <obj_property name="ElementShortName">IRST</obj_property>
+         <obj_property name="ObjectShortName">IRST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/IID" type="array">
+         <obj_property name="ElementShortName">IID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">IID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ODATA_A" type="array">
+         <obj_property name="ElementShortName">ODATA_A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ODATA_B" type="array">
+         <obj_property name="ElementShortName">ODATA_B[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_B[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ODATA_C" type="array">
+         <obj_property name="ElementShortName">ODATA_C[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_C[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/act_mode" type="array">
+         <obj_property name="ElementShortName">act_mode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">act_mode[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/tgt_id" type="array">
+         <obj_property name="ElementShortName">tgt_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/tgt_addr" type="array">
+         <obj_property name="ElementShortName">tgt_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/ord_data" type="array">
+         <obj_property name="ElementShortName">ord_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ord_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/clk100" type="logic">
+         <obj_property name="ElementShortName">clk100</obj_property>
+         <obj_property name="ObjectShortName">clk100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_locked" type="logic">
+         <obj_property name="ElementShortName">s_locked</obj_property>
+         <obj_property name="ObjectShortName">s_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_clk" type="array">
+         <obj_property name="ElementShortName">r_spi_clk[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clk[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_clk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_clk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_xcs" type="array">
+         <obj_property name="ElementShortName">r_spi_xcs[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_xcs[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_xcs_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_xcs_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_mosi" type="array">
+         <obj_property name="ElementShortName">r_spi_mosi[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_mosi[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_oclk" type="logic">
+         <obj_property name="ElementShortName">r_spi_oclk</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_clkdiv" type="array">
+         <obj_property name="ElementShortName">r_spi_clkdiv[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clkdiv[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_oclk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/s_spi_oclk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/cr_state" type="array">
+         <obj_property name="ElementShortName">cr_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cr_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/nx_state" type="array">
+         <obj_property name="ElementShortName">nx_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nx_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/recv_done" type="logic">
+         <obj_property name="ElementShortName">recv_done</obj_property>
+         <obj_property name="ObjectShortName">recv_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/read_done" type="logic">
+         <obj_property name="ElementShortName">read_done</obj_property>
+         <obj_property name="ObjectShortName">read_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/write_done" type="logic">
+         <obj_property name="ElementShortName">write_done</obj_property>
+         <obj_property name="ObjectShortName">write_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/send_done" type="logic">
+         <obj_property name="ElementShortName">send_done</obj_property>
+         <obj_property name="ObjectShortName">send_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/init_done" type="logic">
+         <obj_property name="ElementShortName">init_done</obj_property>
+         <obj_property name="ObjectShortName">init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/mosi_buffer" type="array">
+         <obj_property name="ElementShortName">mosi_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">mosi_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/miso_buffer" type="array">
+         <obj_property name="ElementShortName">miso_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">miso_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_miso" type="logic">
+         <obj_property name="ElementShortName">r_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">r_spi_miso</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/r_spi_oxcs" type="logic">
+         <obj_property name="ElementShortName">r_spi_oxcs</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oxcs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/tx_bit_cnt" type="array">
+         <obj_property name="ElementShortName">tx_bit_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t0/fpga_top/tx_commit" type="logic">
+         <obj_property name="ElementShortName">tx_commit</obj_property>
+         <obj_property name="ObjectShortName">tx_commit</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider960">
+      <obj_property name="label">fpga_t1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group959" type="group">
+      <obj_property name="label">fpga_t1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ISPI_CLK" type="logic">
+         <obj_property name="ElementShortName">ISPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">ISPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ISPI_MOSI" type="logic">
+         <obj_property name="ElementShortName">ISPI_MOSI</obj_property>
+         <obj_property name="ObjectShortName">ISPI_MOSI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ISPI_XCS" type="logic">
+         <obj_property name="ElementShortName">ISPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">ISPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/OSPI_CLK" type="logic">
+         <obj_property name="ElementShortName">OSPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">OSPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/OSPI_MISO" type="logic">
+         <obj_property name="ElementShortName">OSPI_MISO</obj_property>
+         <obj_property name="ObjectShortName">OSPI_MISO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/OSPI_XCS" type="logic">
+         <obj_property name="ElementShortName">OSPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">OSPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ICLK" type="logic">
+         <obj_property name="ElementShortName">ICLK</obj_property>
+         <obj_property name="ObjectShortName">ICLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/IRST" type="logic">
+         <obj_property name="ElementShortName">IRST</obj_property>
+         <obj_property name="ObjectShortName">IRST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/IID" type="array">
+         <obj_property name="ElementShortName">IID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">IID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ODATA_A" type="array">
+         <obj_property name="ElementShortName">ODATA_A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ODATA_B" type="array">
+         <obj_property name="ElementShortName">ODATA_B[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_B[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ODATA_C" type="array">
+         <obj_property name="ElementShortName">ODATA_C[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_C[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/act_mode" type="array">
+         <obj_property name="ElementShortName">act_mode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">act_mode[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/tgt_id" type="array">
+         <obj_property name="ElementShortName">tgt_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/tgt_addr" type="array">
+         <obj_property name="ElementShortName">tgt_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/ord_data" type="array">
+         <obj_property name="ElementShortName">ord_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ord_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/clk100" type="logic">
+         <obj_property name="ElementShortName">clk100</obj_property>
+         <obj_property name="ObjectShortName">clk100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_locked" type="logic">
+         <obj_property name="ElementShortName">s_locked</obj_property>
+         <obj_property name="ObjectShortName">s_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_clk" type="array">
+         <obj_property name="ElementShortName">r_spi_clk[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clk[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_clk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_clk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_xcs" type="array">
+         <obj_property name="ElementShortName">r_spi_xcs[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_xcs[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_xcs_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_xcs_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_mosi" type="array">
+         <obj_property name="ElementShortName">r_spi_mosi[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_mosi[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_oclk" type="logic">
+         <obj_property name="ElementShortName">r_spi_oclk</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_clkdiv" type="array">
+         <obj_property name="ElementShortName">r_spi_clkdiv[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clkdiv[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_oclk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/s_spi_oclk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/cr_state" type="array">
+         <obj_property name="ElementShortName">cr_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cr_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/nx_state" type="array">
+         <obj_property name="ElementShortName">nx_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nx_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/recv_done" type="logic">
+         <obj_property name="ElementShortName">recv_done</obj_property>
+         <obj_property name="ObjectShortName">recv_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/read_done" type="logic">
+         <obj_property name="ElementShortName">read_done</obj_property>
+         <obj_property name="ObjectShortName">read_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/write_done" type="logic">
+         <obj_property name="ElementShortName">write_done</obj_property>
+         <obj_property name="ObjectShortName">write_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/send_done" type="logic">
+         <obj_property name="ElementShortName">send_done</obj_property>
+         <obj_property name="ObjectShortName">send_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/init_done" type="logic">
+         <obj_property name="ElementShortName">init_done</obj_property>
+         <obj_property name="ObjectShortName">init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/mosi_buffer" type="array">
+         <obj_property name="ElementShortName">mosi_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">mosi_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/miso_buffer" type="array">
+         <obj_property name="ElementShortName">miso_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">miso_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_miso" type="logic">
+         <obj_property name="ElementShortName">r_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">r_spi_miso</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/r_spi_oxcs" type="logic">
+         <obj_property name="ElementShortName">r_spi_oxcs</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oxcs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/tx_bit_cnt" type="array">
+         <obj_property name="ElementShortName">tx_bit_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t1/fpga_top/tx_commit" type="logic">
+         <obj_property name="ElementShortName">tx_commit</obj_property>
+         <obj_property name="ObjectShortName">tx_commit</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider958">
+      <obj_property name="label">fpga_t2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group961" type="group">
+      <obj_property name="label">fpga_t2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ISPI_CLK" type="logic">
+         <obj_property name="ElementShortName">ISPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">ISPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ISPI_MOSI" type="logic">
+         <obj_property name="ElementShortName">ISPI_MOSI</obj_property>
+         <obj_property name="ObjectShortName">ISPI_MOSI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ISPI_XCS" type="logic">
+         <obj_property name="ElementShortName">ISPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">ISPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/OSPI_CLK" type="logic">
+         <obj_property name="ElementShortName">OSPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">OSPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/OSPI_MISO" type="logic">
+         <obj_property name="ElementShortName">OSPI_MISO</obj_property>
+         <obj_property name="ObjectShortName">OSPI_MISO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/OSPI_XCS" type="logic">
+         <obj_property name="ElementShortName">OSPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">OSPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ICLK" type="logic">
+         <obj_property name="ElementShortName">ICLK</obj_property>
+         <obj_property name="ObjectShortName">ICLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/IRST" type="logic">
+         <obj_property name="ElementShortName">IRST</obj_property>
+         <obj_property name="ObjectShortName">IRST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/IID" type="array">
+         <obj_property name="ElementShortName">IID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">IID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ODATA_A" type="array">
+         <obj_property name="ElementShortName">ODATA_A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ODATA_B" type="array">
+         <obj_property name="ElementShortName">ODATA_B[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_B[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ODATA_C" type="array">
+         <obj_property name="ElementShortName">ODATA_C[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_C[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/act_mode" type="array">
+         <obj_property name="ElementShortName">act_mode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">act_mode[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/tgt_id" type="array">
+         <obj_property name="ElementShortName">tgt_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/tgt_addr" type="array">
+         <obj_property name="ElementShortName">tgt_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/ord_data" type="array">
+         <obj_property name="ElementShortName">ord_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ord_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/clk100" type="logic">
+         <obj_property name="ElementShortName">clk100</obj_property>
+         <obj_property name="ObjectShortName">clk100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_locked" type="logic">
+         <obj_property name="ElementShortName">s_locked</obj_property>
+         <obj_property name="ObjectShortName">s_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_clk" type="array">
+         <obj_property name="ElementShortName">r_spi_clk[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clk[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_clk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_clk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_xcs" type="array">
+         <obj_property name="ElementShortName">r_spi_xcs[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_xcs[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_xcs_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_xcs_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_mosi" type="array">
+         <obj_property name="ElementShortName">r_spi_mosi[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_mosi[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_oclk" type="logic">
+         <obj_property name="ElementShortName">r_spi_oclk</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_clkdiv" type="array">
+         <obj_property name="ElementShortName">r_spi_clkdiv[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clkdiv[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_oclk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/s_spi_oclk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/cr_state" type="array">
+         <obj_property name="ElementShortName">cr_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cr_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/nx_state" type="array">
+         <obj_property name="ElementShortName">nx_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nx_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/recv_done" type="logic">
+         <obj_property name="ElementShortName">recv_done</obj_property>
+         <obj_property name="ObjectShortName">recv_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/read_done" type="logic">
+         <obj_property name="ElementShortName">read_done</obj_property>
+         <obj_property name="ObjectShortName">read_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/write_done" type="logic">
+         <obj_property name="ElementShortName">write_done</obj_property>
+         <obj_property name="ObjectShortName">write_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/send_done" type="logic">
+         <obj_property name="ElementShortName">send_done</obj_property>
+         <obj_property name="ObjectShortName">send_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/init_done" type="logic">
+         <obj_property name="ElementShortName">init_done</obj_property>
+         <obj_property name="ObjectShortName">init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/mosi_buffer" type="array">
+         <obj_property name="ElementShortName">mosi_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">mosi_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/miso_buffer" type="array">
+         <obj_property name="ElementShortName">miso_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">miso_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_miso" type="logic">
+         <obj_property name="ElementShortName">r_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">r_spi_miso</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/r_spi_oxcs" type="logic">
+         <obj_property name="ElementShortName">r_spi_oxcs</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oxcs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/tx_bit_cnt" type="array">
+         <obj_property name="ElementShortName">tx_bit_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t2/fpga_top/tx_commit" type="logic">
+         <obj_property name="ElementShortName">tx_commit</obj_property>
+         <obj_property name="ObjectShortName">tx_commit</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider962">
+      <obj_property name="label">fpga_t3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group963" type="group">
+      <obj_property name="label">fpga_t3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ISPI_CLK" type="logic">
+         <obj_property name="ElementShortName">ISPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">ISPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ISPI_MOSI" type="logic">
+         <obj_property name="ElementShortName">ISPI_MOSI</obj_property>
+         <obj_property name="ObjectShortName">ISPI_MOSI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ISPI_XCS" type="logic">
+         <obj_property name="ElementShortName">ISPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">ISPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/OSPI_CLK" type="logic">
+         <obj_property name="ElementShortName">OSPI_CLK</obj_property>
+         <obj_property name="ObjectShortName">OSPI_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/OSPI_MISO" type="logic">
+         <obj_property name="ElementShortName">OSPI_MISO</obj_property>
+         <obj_property name="ObjectShortName">OSPI_MISO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/OSPI_XCS" type="logic">
+         <obj_property name="ElementShortName">OSPI_XCS</obj_property>
+         <obj_property name="ObjectShortName">OSPI_XCS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ICLK" type="logic">
+         <obj_property name="ElementShortName">ICLK</obj_property>
+         <obj_property name="ObjectShortName">ICLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/IRST" type="logic">
+         <obj_property name="ElementShortName">IRST</obj_property>
+         <obj_property name="ObjectShortName">IRST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/IID" type="array">
+         <obj_property name="ElementShortName">IID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">IID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ODATA_A" type="array">
+         <obj_property name="ElementShortName">ODATA_A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ODATA_B" type="array">
+         <obj_property name="ElementShortName">ODATA_B[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_B[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ODATA_C" type="array">
+         <obj_property name="ElementShortName">ODATA_C[10:0]</obj_property>
+         <obj_property name="ObjectShortName">ODATA_C[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/act_mode" type="array">
+         <obj_property name="ElementShortName">act_mode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">act_mode[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/tgt_id" type="array">
+         <obj_property name="ElementShortName">tgt_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/tgt_addr" type="array">
+         <obj_property name="ElementShortName">tgt_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tgt_addr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/ord_data" type="array">
+         <obj_property name="ElementShortName">ord_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ord_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/clk100" type="logic">
+         <obj_property name="ElementShortName">clk100</obj_property>
+         <obj_property name="ObjectShortName">clk100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_locked" type="logic">
+         <obj_property name="ElementShortName">s_locked</obj_property>
+         <obj_property name="ObjectShortName">s_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_clk" type="array">
+         <obj_property name="ElementShortName">r_spi_clk[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clk[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_clk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_clk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_clk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_clk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_xcs" type="array">
+         <obj_property name="ElementShortName">r_spi_xcs[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_xcs[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_xcs_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_xcs_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_xcs_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_xcs_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_mosi" type="array">
+         <obj_property name="ElementShortName">r_spi_mosi[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_mosi[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_oclk" type="logic">
+         <obj_property name="ElementShortName">r_spi_oclk</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_clkdiv" type="array">
+         <obj_property name="ElementShortName">r_spi_clkdiv[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_clkdiv[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_oclk_rise" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_rise</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/s_spi_oclk_fall" type="logic">
+         <obj_property name="ElementShortName">s_spi_oclk_fall</obj_property>
+         <obj_property name="ObjectShortName">s_spi_oclk_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/cr_state" type="array">
+         <obj_property name="ElementShortName">cr_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cr_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/nx_state" type="array">
+         <obj_property name="ElementShortName">nx_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nx_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/recv_done" type="logic">
+         <obj_property name="ElementShortName">recv_done</obj_property>
+         <obj_property name="ObjectShortName">recv_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/read_done" type="logic">
+         <obj_property name="ElementShortName">read_done</obj_property>
+         <obj_property name="ObjectShortName">read_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/write_done" type="logic">
+         <obj_property name="ElementShortName">write_done</obj_property>
+         <obj_property name="ObjectShortName">write_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/send_done" type="logic">
+         <obj_property name="ElementShortName">send_done</obj_property>
+         <obj_property name="ObjectShortName">send_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/init_done" type="logic">
+         <obj_property name="ElementShortName">init_done</obj_property>
+         <obj_property name="ObjectShortName">init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/mosi_buffer" type="array">
+         <obj_property name="ElementShortName">mosi_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">mosi_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/miso_buffer" type="array">
+         <obj_property name="ElementShortName">miso_buffer[23:0]</obj_property>
+         <obj_property name="ObjectShortName">miso_buffer[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_miso" type="logic">
+         <obj_property name="ElementShortName">r_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">r_spi_miso</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/r_spi_oxcs" type="logic">
+         <obj_property name="ElementShortName">r_spi_oxcs</obj_property>
+         <obj_property name="ObjectShortName">r_spi_oxcs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/tx_bit_cnt" type="array">
+         <obj_property name="ElementShortName">tx_bit_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_tb/topbottom/cmod_t3/fpga_top/tx_commit" type="logic">
+         <obj_property name="ElementShortName">tx_commit</obj_property>
+         <obj_property name="ObjectShortName">tx_commit</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
