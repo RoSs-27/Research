@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Nov 17 18:13:40 2021
+# Process ID: 8844
+# Current directory: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_QSPI_20211109/Cmod-A7_QSPI_20211109.runs/CLKGEN_synth_1
+# Command line: vivado.exe -log CLKGEN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CLKGEN.tcl
+# Log file: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_QSPI_20211109/Cmod-A7_QSPI_20211109.runs/CLKGEN_synth_1/CLKGEN.vds
+# Journal file: C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_QSPI_20211109/Cmod-A7_QSPI_20211109.runs/CLKGEN_synth_1\vivado.jou
+#-----------------------------------------------------------
+source CLKGEN.tcl -notrace

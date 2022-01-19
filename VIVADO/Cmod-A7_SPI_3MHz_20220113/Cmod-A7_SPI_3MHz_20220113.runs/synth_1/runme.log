@@ -1,0 +1,473 @@
+
+*** Running vivado
+    with args -log FPGA_TOP.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FPGA_TOP.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/b183r035m/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+source FPGA_TOP.tcl -notrace
+Command: synth_design -top FPGA_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14196 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 482.234 ; gain = 96.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FPGA_TOP' [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:23]
+	Parameter MODE_LEN bound to: 4 - type: integer 
+	Parameter ID_LEN bound to: 4 - type: integer 
+	Parameter ADDR_LEN bound to: 8 - type: integer 
+	Parameter DATA_LEN bound to: 8 - type: integer 
+	Parameter TX_LEN bound to: 24 - type: integer 
+	Parameter RD_MODE bound to: 4'b1000 
+	Parameter WR_MODE bound to: 4'b0000 
+INFO: [Synth 8-6157] synthesizing module 'CLKGEN' [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.runs/synth_1/.Xil/Vivado-3932-DESKTOP-026M7H9/realtime/CLKGEN_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'CLKGEN' (1#1) [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.runs/synth_1/.Xil/Vivado-3932-DESKTOP-026M7H9/realtime/CLKGEN_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'CHAT_CHK_BTN' [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/new/CHAT_CHK_BTN.sv:23]
+	Parameter ChatCheckTime bound to: 18'b000000000000001010 
+INFO: [Synth 8-6155] done synthesizing module 'CHAT_CHK_BTN' (2#1) [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/new/CHAT_CHK_BTN.sv:23]
+WARNING: [Synth 8-6014] Unused sequential element ord_data_reg was removed.  [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:147]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_spi_mosi_reg' and it is trimmed from '3' to '2' bits. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:93]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_spi_xcs_reg' and it is trimmed from '3' to '2' bits. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:86]
+INFO: [Synth 8-6155] done synthesizing module 'FPGA_TOP' (3#1) [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:23]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[10]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[9]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[8]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[7]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[6]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[5]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[4]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[10]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[9]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[8]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_C[10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 554.746 ; gain = 169.469
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 554.746 ; gain = 169.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 554.746 ; gain = 169.469
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/ip/CLKGEN/CLKGEN/CLKGEN_in_context.xdc] for cell 'clkgen'
+Finished Parsing XDC File [c:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/ip/CLKGEN/CLKGEN/CLKGEN_in_context.xdc] for cell 'clkgen'
+Parsing XDC File [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc]
+WARNING: [Vivado 12-508] No pins matched 'clkgen/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc:9]
+WARNING: [Vivado 12-508] No pins matched 'clkgen/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc:10]
+WARNING: [Vivado 12-508] No pins matched 'clkgen/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc:15]
+WARNING: [Vivado 12-508] No pins matched 'clkgen/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc:25]
+Finished Parsing XDC File [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/FPGA_TOP_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/constrs_1/imports/digilent-xdc-master/Cmod-A7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FPGA_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FPGA_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 894.484 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for ICLK. (constraint file  c:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/ip/CLKGEN/CLKGEN/CLKGEN_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ICLK. (constraint file  c:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/ip/CLKGEN/CLKGEN/CLKGEN_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for clkgen. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "btn_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'mosi_buffer_reg' and it is trimmed from '24' to '23' bits. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:131]
+INFO: [Synth 8-5546] ROM "mem_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[64]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[65]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[66]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[67]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[68]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[69]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[70]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[71]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[72]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[73]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[74]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[75]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[76]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[77]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[78]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[79]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[81]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[82]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[83]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[84]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[85]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[86]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[87]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[88]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[89]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[90]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[91]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[92]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[93]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[94]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[95]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[96]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[97]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[98]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_reg[99]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                8 Bit    Registers := 259   
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 260   
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FPGA_TOP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                8 Bit    Registers := 259   
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 259   
+	   3 Input      1 Bit        Muxes := 1     
+Module CHAT_CHK_BTN 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3936] Found unconnected internal register 'mosi_buffer_reg' and it is trimmed from '23' to '22' bits. [C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.srcs/sources_1/imports/new/FPGA_TOP.sv:131]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[10]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[9]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[8]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[7]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[6]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[5]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_A[4]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[10]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[9]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_B[8]
+WARNING: [Synth 8-3331] design FPGA_TOP has unconnected port ODATA_C[10]
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[21]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[20]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[19]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[18]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[17]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[16]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[15]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[14]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[13]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[12]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[11]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[10]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[9]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[8]) is unused and will be removed from module FPGA_TOP.
+WARNING: [Synth 8-3332] Sequential element (mosi_buffer_reg[7]) is unused and will be removed from module FPGA_TOP.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clkgen/OCLK100MHZ' to pin 'clkgen/bbstub_OCLK100MHZ/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 894.484 ; gain = 509.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 902.285 ; gain = 517.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |CLKGEN        |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CLKGEN |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     3|
+|4     |LUT2   |    76|
+|5     |LUT3   |    11|
+|6     |LUT4   |    51|
+|7     |LUT5   |    24|
+|8     |LUT6   |   819|
+|9     |MUXF7  |   272|
+|10    |MUXF8  |   128|
+|11    |FDRE   |  2144|
+|12    |IBUF   |     8|
+|13    |OBUF   |    26|
+|14    |OBUFT  |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+-------------+------+
+|      |Instance  |Module       |Cells |
++------+----------+-------------+------+
+|1     |top       |             |  3583|
+|2     |  rst_btn |CHAT_CHK_BTN |    53|
++------+----------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 906.621 ; gain = 181.605
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 906.621 ; gain = 521.344
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 416 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'FPGA_TOP' is not ideal for floorplanning, since the cellview 'FPGA_TOP' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+123 Infos, 48 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 906.621 ; gain = 532.813
+INFO: [Common 17-1381] The checkpoint 'C:/Users/b183r035m/Documents/workspace/Research/VIVADO/Cmod-A7_SPI_3MHz_20220113/Cmod-A7_SPI_3MHz_20220113.runs/synth_1/FPGA_TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FPGA_TOP_utilization_synth.rpt -pb FPGA_TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 906.621 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 14:23:16 2022...
